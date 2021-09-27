@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-family: "Roboto", sans-serif;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header {
+  background-color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  height: 3rem;
+}
+.container {
+  width: 80%;
+  max-width: 620px;
+  margin: 0 auto;
+}
+.logo {
+  font-weight: bold;
+  color: rgb(55, 157, 224);
+  font-size: 1.2rem;
+}
+nav li {
+  list-style: none;
+  padding: 0.5rem;
+  margin-right: 1.5rem;
+}
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(68, 68, 68);
+  font-size: 1rem;
+}
+.mainContent{
+  height: calc(100vh - 3rem);
+  display: grid;
+  place-items: center;
+  align-self: center;
+
+}
+.mainContent .container{
+  text-align: center;
+  font-size: 1.5rem;
+}
+.mainContent h2{
+  font-size: 2.1rem;
+  background: rgba(26, 25, 25, 0.89);
+  color: white;
+  padding: 0.8rem;
+  border-radius: .5rem;
+}
+.colorNameText{
+  color: rgb(55, 157, 224);
+}
+.btn{
+  margin-top: 2.5rem;
+  padding: .4rem 1.4rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-radius: .4rem;
+  background: none;
+  border: 2px solid rgba(26, 25, 25, 0.89);
+  cursor: pointer;
+}
+.btn:hover{
+transform: scale(1.1);
+}
